@@ -129,7 +129,7 @@ EDK2 is an open-source development environment for UEFI applications. It is a fo
        SystemTable->ConOut->ClearScreen(SystemTable->ConOut);
 
        // Print "Hello, World!"
-       SystemTable->ConOut->OutputString(SystemTable->ConOut, L"Hello, World!\nPress any key to continue...\n");
+       SystemTable->ConOut->OutputString(SystemTable->ConOut, L"Hello, World!\nPress any key to boot...!\n");
 
        // Wait for a key press
        SystemTable->BootServices->WaitForEvent(1, &SystemTable->ConIn->WaitForKey, &Index);
