@@ -149,5 +149,19 @@ EDK2 is an open-source development environment for UEFI applications. It is a fo
 5. **Run Your Application**:
    - Copy the generated `.efi` file to a FAT32-formatted USB drive.
    - Boot your UEFI-enabled hardware from the USB drive and run your UEFI application.
+  
+6. **Set Build Variables**:
+   ```sh
+   set ACTIVE_PLATFORM=HelloWorldPkg/HelloWorldPkg.dsc
+   set TARGET=RELEASE
+   set TARGET_ARCH=X64
+   set TOOL_CHAIN_TAG=VS2022
+   ```
+
+7. **Build Your Application**:
+   ```sh
+   cd C:\edk2\HelloWorldPkg
+   build
+   ```
 
 By following these steps, you should be able to create, build, and run a simple UEFI application that prints "Hello, World!" on your screen. If you encounter any issues, make sure all paths are correct and all necessary tools are installed properly.
