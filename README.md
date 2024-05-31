@@ -164,4 +164,11 @@ EDK2 is an open-source development environment for UEFI applications. It is a fo
    build
    ```
 
+## Step 3: Run the UEFI Application on Real Hardware
+Format your flash drive with FAT32 partition. Then create a folders EFI/BOOT. Then copy the HelloWorldApplication.efi file to the EFI/BOOT folder. Rename the HelloWorldApplication.efi file to BOOTX64.EFI. Then plug the flash drive into your UEFI-enabled hardware and boot from it. You should see the following output:
+
+Hello World!
+
+Press any key to boot...!   
+
 By following these steps, you should be able to create, build, and run a simple UEFI application that prints "Hello, World!" on your screen. If you encounter any issues, make sure all paths are correct and all necessary tools are installed properly.
