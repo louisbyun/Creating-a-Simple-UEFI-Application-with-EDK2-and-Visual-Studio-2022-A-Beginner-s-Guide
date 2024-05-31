@@ -52,9 +52,9 @@ EDK2 is an open-source development environment for UEFI applications. It is a fo
      ```
 5. **Build or Install the EDK2 BaseTools**:
    - Open the Visual Studio Developer Command Prompt and navigate to the EDK2 directory. Then run the following command:
-```sh
-edksetup.bat Rebuild
-```
+     ```sh
+     edksetup.bat Rebuild
+     ```
 
 ## Step 2: Build and Run Your UEFI Application
 
